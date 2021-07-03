@@ -1,3 +1,6 @@
 #aka Gen module
 
-#Gen
+def gen():
+    return 5
+
+if __name__ == "__main__":pass
