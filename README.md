@@ -7,5 +7,3 @@ alright
 
 ight
 gay
-
-YOO
