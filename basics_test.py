@@ -27,14 +27,14 @@ The table should only show numbers and it should have all first digits of the nu
 (including aligning the first L of LoL)
 
 ex. with user input 4,
-    
+
     4    3    2    LoL
     8    6    LoL  2
     12   LoL  6    3
     LoL  12   8    4
 
 """
-#testing out whether logical part of your brain is running
+#was seeing whether your brain cells were intact, but impressive 
 """
 Q_4,
 Make a database for all numbers until the user specification,
@@ -54,6 +54,8 @@ ex. with maximum set to 100,
     2. prime number?
     3. same shit again?
 >>3
-    u blind bro?nope
+    nope
 """
-#daim boi, i had my money on you not being able to complete this.
+#nani? i would have never put my money on you to complete this.
+
+#efficeincy score[], big brains score[], readability score[]
