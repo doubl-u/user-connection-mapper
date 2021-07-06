@@ -37,7 +37,7 @@ ex. with user input 4,
 #was seeing whether your brain cells were intact, but impressive 
 """
 Q_4,
-Make a database for all numbers until the user specification,
+Make a database for all numbers until the user specification (0 nnot included),
 The information should be revealed on user calling only (cannot display everything at once)
 The information stored should contain: whether if its an odd number or even number, whether if its a prime number (1 is not prime), 
 and whether or not the current number inputed is the same as the last number inquired for (its a default no on the first try)
