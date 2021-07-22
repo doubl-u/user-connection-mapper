@@ -12,7 +12,7 @@ ex. 8 of root 3 (cuberoot) = 2
 #completed the captcha test to check if you are human.
 """
 Q_2, 
-Make a script that takes the a string from the user and switches the capitalisation of alphabets in the string alternatively (with first letter capital).
+Make a script that takes the a string from the user and switches the capitalisation of alphabets in the string alternatively (with first letter of the sentence, capital).
 
 ex. "hello world 123four" = "HeLlO wOrLd 123FoUr"
 
@@ -46,20 +46,20 @@ not:
 Q_4,
 Make a database for all numbers until the user specification (0 not included),
 The information should be revealed on user calling only (cannot display everything at once)
-The information stored should contain: whether if its an odd number or even number, whether if its a prime number (1 is not prime), 
+The information stored should contain: whether if it's in the fibonacci sequence (1,1,2,3,5,8,.. where the sum of last two numbers make the next) , whether if its a prime number (1 is not prime), 
 and whether or not the current number inputed is the same as the last number inquired for (its a default no on the first try)
 
 ex. 
 >>100
     numbers from 1 to 100 can be searched for.
 >>3
-    1. odd or even?
+    1. in the fibonacci Sequence?
     2. prime number?
     3. same shit again?
 >>1
     odd
 >>1
-    1. odd or even?
+    1. in the fibonacci Sequence?
     2. prime number?
     3. same shit again?
 >>3
