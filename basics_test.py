@@ -49,6 +49,8 @@ The information should be revealed on user calling only (cannot display everythi
 The information stored should contain: whether if it's in the fibonacci sequence (1,1,2,3,5,8,.. where the sum of last two numbers make the next) , whether if its a prime number (1 is not prime), 
 and whether or not the current number inputed is the same as the last number inquired for (its a default no on the first try)
 
+It should done in one main python file and two supplementary modules
+
 ex. 
 >>100
     numbers from 1 to 100 can be searched for.
