@@ -3,7 +3,7 @@ from random import randint
 
 """ Minor variable changes for testing purposes """
 preset=25  #number of nodes
-openess=25  #percentage of the connections that are from outside the closed system [where 0 = closed system with no outside references, 50 = half of the connections are openended nodes with no info in the database, and 100 is an error coz of the use of infinite as limit]
+openess=0  #percentage of the connections that are from outside the closed system [where 0 = closed system with no outside references, 50 = half of the connections are openended nodes with no info in the database, and 100 is an error coz of the use of infinite as limit]
 max_connections = 20    #the maximum connections a node could have, the number of connections is decided between 1 and this variable
 pre_notation="n_"    # to display all nodes as just string of numbers, use "". "n_" setting shows the nodes as "n_123" instead of "123"
 """ Any changes made below needs to be tested before pushing to repository """
