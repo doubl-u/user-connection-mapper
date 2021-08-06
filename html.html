@@ -1,3 +1,30 @@
-<html>
-    <head></head>
+<!DOCTYPE html>
+<head>
+    <title>TestData</title>
+</head>
+
+<body>
+    <div id = "TData"></div>
+    <script>
+        fetch('testdata.json')
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                appendData(data);
+            })
+            .catch(function (err) {
+                console.log('Error: ' + err);
+            });
+        function appendData(data) {
+            var mainContainer = document.getElementById("TData");
+            for 
+            (var i = 0; i < data.length; i++) {
+                var div = document.createElement("div");
+                div.innerHTML = 'Node : ' + data[i].node + ' -- '+ 'Connections : ' + data[i].connections;
+                mainContainer.appendChild(div);
+            }
+        }
+    </script>
+</body>
 </html>
