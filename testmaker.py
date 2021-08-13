@@ -39,15 +39,15 @@ data2={"nodes":[],"links":[]}
 codes=genCode([],len(data))
 
 def gen2_1(l,tar):
-    print(f"{l} <")
+    #print(f"{l} <")
     for i in l:
-        if i["name"]==tar:return i["code"]
+        if i["name"]==tar:return i["id"]
 
 def gen2(d):
     Counter=0
     for i in d:
         n = i["node"]
-        data2["nodes"].append({"name":n,"code":codes[Counter]})
+        data2["nodes"].append({"name":n,"id":codes[Counter]})
         Counter+=1
     Counter=0
     for i in d:
