@@ -27,7 +27,7 @@ def genCode(c,length):
     for i in range(length):
         while True:
             r = randint(10**code_digits,10**(code_digits+1))
-            print(f"r={r}")
+            #print(f"r={r}")
             if r in c:pass
             else:
                 c.append(r)
@@ -41,13 +41,13 @@ codes=genCode([],len(data))
 def gen2_1(l,tar):
     #print(f"{l} <")
     for i in l:
-        if i["name"]==tar:return i["id"]
+        if i["name"]==tar:return i["ID"]
 
 def gen2(d):
     Counter=0
     for i in d:
         n = i["node"]
-        data2["nodes"].append({"name":n,"id":codes[Counter]})
+        data2["nodes"].append({"name":n,"ID":codes[Counter]})
         Counter+=1
     Counter=0
     for i in d:
