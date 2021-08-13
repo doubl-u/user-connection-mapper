@@ -35,7 +35,7 @@ def genCode(c,length):
     return c
 
 gen(preset)
-data2={"Name":[],"links":[]}
+data2={"nodes":[],"links":[]}
 codes=genCode([],len(data))
 
 def gen2_1(l,tar):
@@ -47,12 +47,12 @@ def gen2(d):
     Counter=0
     for i in d:
         n = i["node"]
-        data2["nodes"].append({"name":n,"ID":codes[Counter]})
+        data2["nodes"].append({"name":n,"code":codes[Counter]})
         Counter+=1
     Counter=0
     for i in d:
         for j in i["connections"]:
-            data2["links"].append({"source":codes[Counter],"target":gen2_1(data2["Name"],j)})
+            data2["links"].append({"source":codes[Counter],"target":gen2_1(data2["nodes"],j)})
         Counter+=1
 
 gen2(data)
