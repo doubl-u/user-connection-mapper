@@ -47,7 +47,8 @@ def gen2(d):
     Counter=0
     for i in d:
         n = i["node"]
-        data2["nodes"].append({"name":n,"id":codes[Counter]})
+        data2["nodes"].append({"name":n,"ID.
+        ":codes[Counter]})
         Counter+=1
     Counter=0
     for i in d:
